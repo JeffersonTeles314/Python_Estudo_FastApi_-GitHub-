@@ -27,3 +27,6 @@ class MYAPI():
         
 
 var1 = MYAPI()
+
+if __name__ == "__main__":
+    os.system("uvicorn main copy:app ")
